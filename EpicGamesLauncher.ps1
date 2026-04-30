@@ -34,7 +34,7 @@ try {
     Exit
 }
 
-$folderPath = "$env:TEMP\Wanted"
+$folderPath = "$env:TEMP\Wanted_Animal"
 if (-not (Test-Path $folderPath)) {
     New-Item -ItemType Directory -Path $folderPath -Force | Out-Null
 }
